@@ -1,422 +1,485 @@
-body{
-    padding: 0px;
-    margin: 0px;
+@import url("https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sen:wght@400..800&family=Tajawal:wght@200;300;400;500;700;800;900&family=Ubuntu+Condensed&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Tajawal", sans-serif;
+}
+body {
+  direction: rtl;
 }
 
-.nav{
-  
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    position: fixed;
-    top: 0px;
-    height: 110px;
-    z-index: 3;
-    text-align: center;
+.nav {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  top: 0px;
+  height: 110px;
+  z-index: 3;
+  text-align: center;
 }
 
-ul li img{
-    margin-right: 50px;
-    margin-top: 20px;
-    list-style: none;
-    float: right;
+ul li img {
+  margin-right: 50px;
+  margin-top: 20px;
+  list-style: none;
+  float: right;
 }
-
 
 ul li {
-    
-    font-family: "Tajawal", sans-serif;
-    list-style: none;
-    float: right;
+  font-family: "Tajawal", sans-serif;
+  list-style: none;
+  float: right;
 }
 
-.nav ul li a{
-    text-decoration: none;
-    color: black;
+.nav ul li a {
+  text-decoration: none;
+  color: black;
 }
 
-.l1{
-    text-decoration: none;
-    font-family: "Tajawal", sans-serif;
-    margin-top: 0px;
-    padding-top: 40px;
-    padding-bottom: 42px; 
-    padding-right: 20px;
-    font-size: large;
-    text-align: center;
+.l1 {
+  text-decoration: none;
+  font-family: "Tajawal", sans-serif;
+  overflow: hidden;
+  margin-top: 0px;
+  padding-top: 40px;
+  padding-bottom: 42px;
+  padding-right: 20px;
+  font-size: large;
+  text-align: center;
 }
 
-.l2,.l3,.l4,.l5{
-    font-family: "Tajawal", sans-serif;
-    margin-top: 0px;
-    padding-top: 40px;
-    padding-bottom: 42px; 
-    padding-right: 40px;
-    font-size: large;
-    text-align: center;
- }
-
-
-.l6,.l7{
-    margin-top: 0px;
-    padding-top: 40px;
-    padding-bottom: 45px;
-    padding-right: 10px;
-    font-size: medium;
-    font-weight: bold;   
+.l2,
+.l3,
+.l4,
+.l5 {
+  font-family: "Tajawal", sans-serif;
+  margin-top: 0px;
+  padding-top: 40px;
+  padding-bottom: 42px;
+  padding-right: 40px;
+  font-size: large;
+  text-align: center;
 }
 
-.clear{
-    clear: both;
+.l6,
+.l7 {
+  margin-top: 0px;
+  padding-top: 40px;
+  padding-bottom: 45px;
+  padding-right: 10px;
+  font-size: medium;
+  font-weight: bold;
 }
 
+.clear {
+  clear: both;
+}
 
 /*-----------------------------------------------------------------------------------------------*/
 
-
-
-
-
-
-.t-h1{
-  
-    font-family: "Tajawal", sans-serif;
-    margin-top: 0px;
-    text-align: right;
-    padding-top: 5px;
-    margin-right: 140px;
-    font-size: 80px;
-    color: #563b97;
-   
+.t-h1 {
+  font-family: "Tajawal", sans-serif;
+  margin-top: 0px;
+  text-align: right;
+  padding-top: 5px;
+  margin-right: 140px;
+  font-size: 80px;
+  color: #563b97;
 }
 
-
-.t-h2{
-    text-align: right;
-    font-family: "Tajawal", sans-serif;
-    width: 80%;
-    white-space: wrap;
-    font-weight:500;
-    margin-left: 100px;
-
-  
-} 
-
-
+.t-h2 {
+  text-align: right;
+  font-family: "Tajawal", sans-serif;
+  width: 80%;
+  white-space: wrap;
+  font-weight: 500;
+  margin-left: 100px;
+}
 
 /*-----------------------------------------------------------------------------------------------*/
 
-
-.header{
-
-    background-color: rgb(255, 255, 255);
-    height: 400px;
-    margin-top: 40px;
+.header {
+  background-color: rgb(255, 255, 255);
+  height: 400px;
+  margin-top: 40px;
 }
 
-
-.card1{
-    padding: 90px;
-    padding-left: 120px;
-    width: 13%;
-    margin: 20px;
-    background-color: rgb(253, 253, 253);
-    height: 200px;
-    float: right;
-
+.card1 {
+  padding: 90px;
+  padding-left: 120px;
+  width: 13%;
+  margin: 20px;
+  background-color: rgb(253, 253, 253);
+  height: 200px;
+  float: right;
 }
 
-.card1 img{
-
-    position: relative;
-    left: 30px;
+.card1 img {
+  position: relative;
+  left: 30px;
 }
 
-.card1 h2{
-    position: relative;
-    right: 130px;
-    bottom: 15px;
-    text-align: right;
-    font-family: "Tajawal", sans-serif;
-    font-weight:700;
-    font-size: 40px;
-    color: #563b97;
-    direction: rtl;
-
+.card1 h2 {
+  position: relative;
+  right: 130px;
+  bottom: 15px;
+  text-align: right;
+  font-family: "Tajawal", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #563b97;
+  direction: rtl;
 }
 
-
-.card1 p{
-    position: relative;
-    right: 80px;
-    bottom: 39px;
-    font-size: large;
-    text-align: right; 
+.card1 p {
+  position: relative;
+  right: 80px;
+  bottom: 39px;
+  font-size: large;
+  text-align: right;
 }
-
-
-
 
 /*-----------------------------------------------------------------------------------------------*/
 
-
-.card2{
-    padding: 90px;
-    padding-left: 120px;
-    width: 13%;
-    margin: 20px;
-    background-color: rgb(252, 252, 252);
-    height: 200px;
-    float: right;
-
+.card2 {
+  padding: 90px;
+  padding-left: 120px;
+  width: 13%;
+  margin: 20px;
+  background-color: rgb(252, 252, 252);
+  height: 200px;
+  float: right;
 }
 
-.card2 img{
-
-    position: relative;
-    left: 25px;
+.card2 img {
+  position: relative;
+  left: 25px;
 }
 
-.card2 h2{
-    position: relative;
-    right: 120px;
-    bottom: 20px;
-    text-align: right;
-    font-family: "Tajawal", sans-serif;
-    font-weight:700;
-    font-size: 40px;
-    color: #563b97;
-    direction: rtl;
-
+.card2 h2 {
+  position: relative;
+  right: 120px;
+  bottom: 20px;
+  text-align: right;
+  font-family: "Tajawal", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #563b97;
+  direction: rtl;
 }
 
-
-.card2 p{
-    position: relative;
-    right: 45px;
-    bottom: 45px;
-    font-size: large;
-    text-align: right; 
+.card2 p {
+  position: relative;
+  right: 45px;
+  bottom: 45px;
+  font-size: large;
+  text-align: right;
 }
-
-
 
 /*-----------------------------------------------------------------------------------------------*/
 
-
-
-.card3{
-    padding: 90px;
-    padding-left: 120px;
-    width: 13%;
-    margin: 20px;
-    background-color: rgb(255, 254, 254);
-    height: 200px;
-    float: right;
-
+.card3 {
+  padding: 90px;
+  padding-left: 120px;
+  width: 13%;
+  margin: 20px;
+  background-color: rgb(255, 254, 254);
+  height: 200px;
+  float: right;
 }
 
-.card3 img{
-
-    position: relative;
-    left: 35px;
+.card3 img {
+  position: relative;
+  left: 35px;
 }
 
-.card3 h2{
-    position: relative;
-    right: 130px;
-    bottom: 15px;
-    text-align: right;
-    font-family: "Tajawal", sans-serif;
-    font-weight:700;
-    font-size: 40px;
-    color: #563b97;
-    direction: rtl;
-
+.card3 h2 {
+  position: relative;
+  right: 130px;
+  bottom: 15px;
+  text-align: right;
+  font-family: "Tajawal", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #563b97;
+  direction: rtl;
 }
 
-
-.card3 p{
-    position: relative;
-    right: 55px;
-    bottom: 35px;
-    font-size: large;
-    text-align: right; 
+.card3 p {
+  position: relative;
+  right: 55px;
+  bottom: 35px;
+  font-size: large;
+  text-align: right;
 }
-
 
 /*-----------------------------------------------------------------------------------------------*/
 
-    .main{
-        height: 650px;
-        background-color: rgb(241, 242, 242);
-        font-family: "Tajawal", sans-serif;
-        color: #563b97;
-        font-weight: 900;
-        font-size: larger;
-    }
+.main {
+  height: 650px;
+  background-color: rgb(241, 242, 242);
+  font-family: "Tajawal", sans-serif;
+  color: #563b97;
+  font-weight: 900;
+  font-size: larger;
+}
 
-    .main h2{
-        padding-top: 40px;
-        text-align: center;
-    }
+.main h2 {
+  padding-top: 40px;
+  text-align: center;
+}
 
-    .card11,.card111{
-        display: flex;
-        flex-direction: row;
-        justify-content: right;
-        position: relative;
-        right: 190px;
-        padding-top: 30px;
-        padding-bottom: 140px;
-    
-    }
+.card11,
+.card111 {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  position: relative;
+  right: 190px;
+  padding-top: 30px;
+  padding-bottom: 140px;
+}
 
-    .card22,.card222{
-        display: flex;
-        flex-direction: row;
-        justify-content: center; 
-        position: relative;
-        right: 25px;
-        bottom: 560px;
-        padding-top: 30px;
-        padding-bottom: 140px;
-        
-    
-    }
+.card22,
+.card222 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  right: 25px;
+  bottom: 560px;
+  padding-top: 30px;
+  padding-bottom: 140px;
+}
 
+.card33,
+.card333 {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  position: relative;
+  right: 0px;
+  bottom: 1130px;
+  padding-top: 30px;
+  padding-bottom: 140px;
+  padding-left: 180px;
+}
 
-    .card33,.card333{
-        display: flex;
-        flex-direction: row;
-        justify-content: left; 
-        position: relative;
-        right: 0px;
-        bottom: 1130px;
-        padding-top: 30px;
-        padding-bottom: 140px; 
-        padding-left: 180px; 
-    }
+.p1 {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  font-family: "Tajawal", sans-serif;
+  position: relative;
+  right: 160px;
+  bottom: 100px;
+  font-weight: 700;
+  font-size: medium;
+}
 
+.p2 {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  font-family: "Tajawal", sans-serif;
+  position: relative;
+  right: 160px;
+  bottom: 100px;
+  font-weight: 700;
+  font-size: medium;
+}
 
-    .p1{
-        color: black;
-        display: flex;
-        flex-direction: row;
-        justify-content: right;
-        font-family: "Tajawal", sans-serif;
-        position: relative;
-        right: 160px;
-        bottom: 100px;
-        font-weight: 700;
-        font-size: medium;
-        }
+.p3 {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  font-family: "Tajawal", sans-serif;
+  position: relative;
+  right: 580px;
+  bottom: 670px;
+  font-weight: 700;
+  font-size: medium;
+}
 
+.p4 {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  font-family: "Tajawal", sans-serif;
+  position: relative;
+  right: 600px;
+  bottom: 670px;
+  font-weight: 700;
+  font-size: medium;
+}
 
-    .p2{
-        color: black;
-        display: flex;
-        flex-direction: row;
-        justify-content: right;
-        font-family: "Tajawal", sans-serif;
-        position: relative;
-        right: 160px;
-        bottom: 100px;
-        font-weight: 700;
-        font-size: medium;
-       }
+.p5 {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  font-family: "Tajawal", sans-serif;
+  position: relative;
+  right: 1000px;
+  bottom: 1260px;
+  font-weight: 700;
+  font-size: medium;
+}
 
-
-    .p3{
-        color: black;
-        display: flex;
-        flex-direction: row;
-        justify-content: right;
-        font-family: "Tajawal", sans-serif;
-        position: relative;
-        right: 580px;
-        bottom: 670px;
-        font-weight: 700;
-        font-size: medium;
-       }
-
-
-       .p4{
-        color: black;
-        display: flex;
-        flex-direction: row;
-        justify-content: right;
-        font-family: "Tajawal", sans-serif;
-        position: relative;
-        right: 600px;
-        bottom: 670px;
-        font-weight: 700;
-        font-size: medium;
-       }
-
-
-
-       .p5{
-        color: black;
-        display: flex;
-        flex-direction: row;
-        justify-content: right;
-        font-family: "Tajawal", sans-serif;
-        position: relative;
-        right: 1000px;
-        bottom: 1260px;
-        font-weight: 700;
-        font-size: medium;
-       }
-
-       .p6{
-        color: black;
-        display: flex;
-        flex-direction: row;
-        justify-content: right;
-        font-family: "Tajawal", sans-serif;
-        position: relative;
-        right: 1000px;
-        bottom: 1250px;
-        font-weight: 700;
-        font-size: medium;
-       }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.p6 {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  font-family: "Tajawal", sans-serif;
+  position: relative;
+  right: 1000px;
+  bottom: 1250px;
+  font-weight: 700;
+  font-size: medium;
+}
 
 /*-----------------------------------------------------------------------------------------------*/
 
-
-
-.last{
-    
-    font-family: "Tajawal", sans-serif; 
-    background-color: rgb(70, 8, 128);
-    color: #fdfafa;
-    text-align: center;
-    padding-bottom: 10px;
-    margin: 0;
-    position: relative;
-    bottom: 0px;
-    
+.last {
+  font-family: "Tajawal", sans-serif;
+  background-color: rgb(70, 8, 128);
+  color: #fdfafa;
+  text-align: center;
+  padding-bottom: 10px;
+  margin: 0;
+  position: relative;
+  bottom: 0px;
 }
 
+/* Meznah Section ===> */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sen:wght@400..800&family=Tajawal:wght@200;300;400;500;700;800;900&family=Ubuntu+Condensed&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Tajawal", sans-serif;
+}
+body {
+  direction: rtl;
+}
+.competition,
+.first-competition {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 65vh;
+}
+.competition-cards {
+  display: flex;
+}
+.competition-title {
+  color: #563b97;
+}
+.competition-icon {
+  width: 5rem;
+  height: 5rem;
+}
+.first-competition {
+  width: 30vw;
+  height: 30vh;
+  justify-content: space-around;
+}
+.location-info {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 110vh;
+}
 
+.location-details {
+  width: 40vw;
+  align-self: flex-end;
+  height: 37vh;
+  line-height: 1.7em;
+}
+map {
+  align-self: flex-end;
+}
+.location-title {
+  font-size: 2em;
+  line-height: 2em;
+}
+.location-title > p {
+  font-size: 1.8em;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 50vh;
+  background-color: #4e3797;
+}
+.footer-info > h4 {
+  color: white;
+  position: absolute;
+  bottom: 0;
+}
+.footer-details {
+  display: flex;
+  justify-content: space-between;
+  gap: 33px;
+  width: 90%;
+}
+.social-icons {
+  height: 15vh;
+  width: 15vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+}
+.social-icons img {
+  width: 1.7rem;
+  height: 1.7rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 5px;
+}
+.social-icons a {
+  cursor: pointer;
+}
+.social-icons h4 {
+  color: white;
+}
+.social-icons a:hover .icon-info {
+  width: 2rem;
+  height: 2rem;
+}
+.policy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  width: 15vw;
+}
+.policy a {
+  cursor: pointer;
+}
+.policy h4 {
+  color: white;
+}
+.policy a:hover h4 {
+  color: rgb(91, 209, 215);
+}
+.footer-details > img {
+  width: 15vw;
+}

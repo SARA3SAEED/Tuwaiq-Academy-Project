@@ -1,0 +1,470 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sen:wght@400..800&family=Tajawal:wght@200;300;400;500;700;800;900&family=Ubuntu+Condensed&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Tajawal", sans-serif;
+}
+body {
+  direction: rtl;
+  font-weight: 400;
+}
+nav {
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  height: 15vh;
+  background-color: white;
+  width: 100%;
+  justify-content: center;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 93%;
+}
+.logo {
+  height: 4rem;
+  width: 13rem;
+}
+.nav-list > li {
+  align-self: center;
+}
+.nav-list li:nth-last-child(-n + 2) a {
+  font-weight: bold;
+}
+.nav-list .li-name {
+  text-decoration: none;
+  color: black;
+  font-size: 1.02em;
+}
+.li-name:hover {
+  color: rgba(91, 209, 215);
+}
+.video-bg {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  /* z-index: -1; */
+  align-items: center;
+}
+.colorful-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  opacity: 0.6;
+  background-image: linear-gradient(to right, rgba(91, 209, 215), #8552ea);
+}
+.video-content {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  transform: translateY(10%);
+  width: 43vw;
+  height: fit-content;
+}
+.main-content > .main-title {
+  font-size: 5.5em;
+  text-align: center;
+  color: white;
+  margin-bottom: 15px;
+  line-height: 1.3em;
+}
+.start-btn {
+  width: 88%;
+  background-color: rgb(91, 209, 215);
+  height: 13vh;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  align-self: center;
+  border-radius: 40px;
+  font-size: 2.5em;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+}
+.start-btn:hover {
+  opacity: 0.8;
+}
+.programs-cards,
+.Activity,
+.partners {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 93vh;
+  background-color: #f3f8ff;
+}
+.cards-title {
+  color: #4e37a2;
+  font-size: 2em;
+}
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 55vh;
+  width: 93%;
+}
+.first-link {
+  text-decoration: none;
+}
+.first-card,
+.second-card,
+.third-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 12px;
+  width: 28vw;
+  height: 46vh;
+  background-color: white;
+  border: none;
+  border-right: 12px solid rgb(91, 209, 215);
+}
+.card-header {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+
+  height: 21vh;
+}
+.card-header .top-title {
+  line-height: 2;
+}
+.main-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 20vh;
+  gap: 10px;
+}
+.top-title,
+.icon-img {
+  margin-right: 25px;
+}
+.details,
+.card-footer {
+  display: flex;
+}
+.first-card:hover,
+.second-card:hover,
+.third-card:hover {
+  transform: scale(1.07);
+}
+
+.location,
+.period {
+  display: inline-block;
+}
+.icon-img {
+  width: 1.4rem;
+  height: 1.2rem;
+}
+.card-footer {
+  justify-content: space-between;
+}
+
+.details-btn {
+  border-radius: 40px;
+  width: 8vw;
+  height: 6vh;
+  margin-left: 10px;
+  border: 1.5px solid rgb(91, 209, 215);
+  color: rgb(91, 209, 215);
+  font-size: 1em;
+  background-color: white;
+  text-align: center;
+  line-height: 2em;
+  text-decoration: none;
+}
+
+.details-btn:hover {
+  background-color: rgb(91, 209, 215);
+  color: white;
+}
+.more-programs {
+  border: 1.5px solid #002379;
+  color: #002379;
+  text-decoration: none;
+  text-align: center;
+  line-height: 2.5em;
+  cursor: pointer;
+  font-size: 0.9em;
+  background-color: white;
+  border-radius: 40px;
+  width: 18vw;
+  height: 7vh;
+}
+.more-programs:hover {
+  background-color: #002379;
+  color: white;
+}
+.numbers-info {
+  margin-top: 20px;
+  height: 80vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.first-number {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 12px;
+  height: 36vh;
+  width: 15vw;
+  position: relative;
+  border: 1px solid black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+.number-title {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 25px;
+  color: rgb(81, 187, 192);
+}
+.cards-numbers {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 55vh;
+  width: 80%;
+  /* background-color: #002379; */
+}
+.programs-icon {
+  width: 5vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: rgb(91, 209, 215);
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.programs-icon img {
+  object-fit: contain;
+}
+.number-value {
+  color: #5e08ae;
+  font-size: 1.7em;
+}
+.caption {
+  font-size: 0.8em;
+}
+.Activity {
+  background-color: #4e3797;
+  height: 105vh;
+  margin-top: 30px;
+}
+.Activity-title {
+  color: white;
+}
+.Activity-cards {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 80vh;
+  width: 80%;
+}
+.first-activity {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 70vh;
+  width: 17vw;
+  border-radius: 12px;
+  border: 1px solid black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: none;
+  background-color: white;
+}
+.Activity-info {
+  text-align: center;
+  color: rgb(91, 209, 215);
+}
+.Activity-icon {
+  width: 3rem;
+}
+.Activity-details {
+  text-align: center;
+  font-size: 0.9em;
+  font-weight: 420;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.activity-btn,
+.submit-btn {
+  padding: 5px 30px;
+  background-color: #4e3797;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  font-weight: bold;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.activity-btn:hover {
+  background-color: white;
+  color: #4e3797;
+  border: 1px solid #4e3797;
+}
+.partners {
+  height: 60vh;
+  background-color: #f2f4f7;
+}
+.partners-details {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.first-partner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  width: 17vw;
+  background-color: white;
+}
+.partner-img {
+  width: 11rem;
+  height: 9rem;
+}
+.subscription {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #5bbec2;
+  height: 40vh;
+}
+.subscription h2 {
+  font-size: 2em;
+  text-align: center;
+  color: white;
+}
+.subscription-info {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 13vh;
+}
+.input {
+  width: 15vw;
+  height: 6vh;
+  border-radius: 5px;
+  border: none;
+  margin-left: 10px;
+  align-self: center;
+}
+.input::placeholder {
+  padding-right: 5px;
+}
+.submit-btn {
+  width: 10vw;
+  height: 4vh;
+  border-radius: 10px;
+  text-align: center;
+}
+form {
+  width: 70%;
+  height: 13vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  height: 50vh;
+  background-color: #4e3797;
+}
+.footer-info > h4 {
+  color: white;
+  position: absolute;
+  bottom: 0;
+}
+.footer-details {
+  display: flex;
+  justify-content: space-between;
+  gap: 33px;
+  width: 90%;
+}
+.social-icons {
+  height: 15vh;
+  width: 15vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+}
+.social-icons img {
+  width: 1.7rem;
+  height: 1.7rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 5px;
+}
+.social-icons a {
+  cursor: pointer;
+}
+.social-icons h4 {
+  color: white;
+}
+.social-icons a:hover .icon-info {
+  width: 2rem;
+  height: 2rem;
+}
+.policy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  width: 15vw;
+}
+.policy a {
+  cursor: pointer;
+}
+.policy h4 {
+  color: white;
+}
+.policy a:hover h4 {
+  color: rgb(91, 209, 215);
+}
+.footer-details > img {
+  width: 15vw;
+}
