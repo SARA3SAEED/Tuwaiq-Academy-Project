@@ -1,0 +1,416 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav{
+  
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0px;
+    height: 110px;
+    z-index: 3;
+    text-align: center;
+}
+
+ul li img{
+    margin-right: 50px;
+    margin-top: 20px;
+    list-style: none;
+    float: right;
+}
+
+
+ul li {
+    
+    font-family: "Tajawal", sans-serif;
+    list-style: none;
+    float: right;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.l1{
+    text-decoration: none;
+    font-family: "Tajawal", sans-serif;
+    margin-top: 0px;
+    padding-top: 40px;
+    padding-bottom: 42px; 
+    padding-right: 20px;
+    font-size: large;
+    text-align: center;
+}
+
+.l2,.l3,.l4,.l5{
+    font-family: "Tajawal", sans-serif;
+    margin-top: 0px;
+    padding-top: 40px;
+    padding-bottom: 42px; 
+    padding-right: 40px;
+    font-size: large;
+    text-align: center;
+ }
+
+
+.l6,.l7{
+    margin-top: 0px;
+    padding-top: 40px;
+    padding-bottom: 45px;
+    padding-right: 10px;
+    font-size: medium;
+    font-weight: bold;   
+}
+
+.clear{
+    clear: both;
+}
+
+
+/*-----------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+h1{
+  
+    font-family: "Tajawal", sans-serif;
+    margin-top: 0px;
+    text-align: right;
+    padding-top: 5px;
+    margin-right: 140px;
+    font-size: 80px;
+    color: rgb(70, 8, 128);
+   
+}
+
+
+h2{
+    text-align: right;
+    font-family: "Tajawal", sans-serif;
+    width: 80%;
+    white-space: wrap;
+    font-weight:500;
+    margin-left: 100px;
+
+  
+} 
+
+
+
+/*-----------------------------------------------------------------------------------------------*/
+
+
+.header{
+
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    margin-top: 40px;
+}
+
+
+.card1{
+    padding: 90px;
+    padding-left: 120px;
+    width: 13%;
+    margin: 20px;
+    background-color: rgb(253, 253, 253);
+    height: 200px;
+    float: right;
+
+}
+
+.card1 img{
+
+    position: relative;
+    left: 30px;
+}
+
+.card1 h2{
+    position: relative;
+    right: 130px;
+    bottom: 15px;
+    text-align: right;
+    font-family: "Tajawal", sans-serif;
+    font-weight:700;
+    font-size: 40px;
+    color: rgb(70, 8, 128);
+    direction: rtl;
+
+}
+
+
+.card1 p{
+    position: relative;
+    right: 80px;
+    bottom: 39px;
+    font-size: large;
+    text-align: right; 
+}
+
+
+
+
+/*-----------------------------------------------------------------------------------------------*/
+
+
+.card2{
+    padding: 90px;
+    padding-left: 120px;
+    width: 13%;
+    margin: 20px;
+    background-color: rgb(252, 252, 252);
+    height: 200px;
+    float: right;
+
+}
+
+.card2 img{
+
+    position: relative;
+    left: 25px;
+}
+
+.card2 h2{
+    position: relative;
+    right: 120px;
+    bottom: 20px;
+    text-align: right;
+    font-family: "Tajawal", sans-serif;
+    font-weight:700;
+    font-size: 40px;
+    color: rgb(70, 8, 128);
+    direction: rtl;
+
+}
+
+
+.card2 p{
+    position: relative;
+    right: 45px;
+    bottom: 45px;
+    font-size: large;
+    text-align: right; 
+}
+
+
+
+/*-----------------------------------------------------------------------------------------------*/
+
+
+
+.card3{
+    padding: 90px;
+    padding-left: 120px;
+    width: 13%;
+    margin: 20px;
+    background-color: rgb(255, 254, 254);
+    height: 200px;
+    float: right;
+
+}
+
+.card3 img{
+
+    position: relative;
+    left: 35px;
+}
+
+.card3 h2{
+    position: relative;
+    right: 130px;
+    bottom: 15px;
+    text-align: right;
+    font-family: "Tajawal", sans-serif;
+    font-weight:700;
+    font-size: 40px;
+    color: rgb(70, 8, 128);
+    direction: rtl;
+
+}
+
+
+.card3 p{
+    position: relative;
+    right: 55px;
+    bottom: 35px;
+    font-size: large;
+    text-align: right; 
+}
+
+
+/*-----------------------------------------------------------------------------------------------*/
+
+    .main{
+        height: 650px;
+        background-color: rgb(241, 242, 242);
+        font-family: "Tajawal", sans-serif;
+        color: rgb(70, 8, 128);
+        font-weight: 900;
+        font-size: larger;
+    }
+
+    .main h2{
+        padding-top: 40px;
+        text-align: center;
+    }
+
+    .card11,.card111{
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        position: relative;
+        right: 190px;
+        padding-top: 30px;
+        padding-bottom: 140px;
+    
+    }
+
+    .card22,.card222{
+        display: flex;
+        flex-direction: row;
+        justify-content: center; 
+        position: relative;
+        right: 25px;
+        bottom: 560px;
+        padding-top: 30px;
+        padding-bottom: 140px;
+        
+    
+    }
+
+
+    .card33,.card333{
+        display: flex;
+        flex-direction: row;
+        justify-content: left; 
+        position: relative;
+        right: 0px;
+        bottom: 1130px;
+        padding-top: 30px;
+        padding-bottom: 140px; 
+        padding-left: 180px; 
+    }
+
+
+    .p1{
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        font-family: "Tajawal", sans-serif;
+        position: relative;
+        right: 160px;
+        bottom: 100px;
+        font-weight: 700;
+        font-size: medium;
+        }
+
+
+    .p2{
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        font-family: "Tajawal", sans-serif;
+        position: relative;
+        right: 160px;
+        bottom: 100px;
+        font-weight: 700;
+        font-size: medium;
+       }
+
+
+    .p3{
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        font-family: "Tajawal", sans-serif;
+        position: relative;
+        right: 580px;
+        bottom: 670px;
+        font-weight: 700;
+        font-size: medium;
+       }
+
+
+       .p4{
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        font-family: "Tajawal", sans-serif;
+        position: relative;
+        right: 600px;
+        bottom: 670px;
+        font-weight: 700;
+        font-size: medium;
+       }
+
+
+
+       .p5{
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        font-family: "Tajawal", sans-serif;
+        position: relative;
+        right: 1000px;
+        bottom: 1260px;
+        font-weight: 700;
+        font-size: medium;
+       }
+
+       .p6{
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        font-family: "Tajawal", sans-serif;
+        position: relative;
+        right: 1000px;
+        bottom: 1250px;
+        font-weight: 700;
+        font-size: medium;
+       }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------------*/
+
+
+
+.last{
+    
+    font-family: "Tajawal", sans-serif; 
+    background-color: rgb(70, 8, 128);
+    color: #fdfafa;
+    text-align: center;
+    padding-bottom: 10px;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    
+}
+
+
