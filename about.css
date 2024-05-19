@@ -77,20 +77,20 @@ ul li {
 
 
 
-h1{
+.t-h1{
   
     font-family: "Tajawal", sans-serif;
     margin-top: 0px;
-    text-align: right;
+    text-align: center;
     padding-top: 5px;
     margin-right: 140px;
     font-size: 80px;
-    color: rgb(70, 8, 128);
+    color: #563b97;
    
 }
 
 
-h2{
+.t-h2{
     text-align: right;
     font-family: "Tajawal", sans-serif;
     width: 80%;
@@ -139,7 +139,7 @@ h2{
     font-family: "Tajawal", sans-serif;
     font-weight:700;
     font-size: 40px;
-    color: rgb(70, 8, 128);
+    color: #563b97;
     direction: rtl;
 
 }
@@ -184,7 +184,7 @@ h2{
     font-family: "Tajawal", sans-serif;
     font-weight:700;
     font-size: 40px;
-    color: rgb(70, 8, 128);
+    color: #563b97;
     direction: rtl;
 
 }
@@ -229,7 +229,7 @@ h2{
     font-family: "Tajawal", sans-serif;
     font-weight:700;
     font-size: 40px;
-    color: rgb(70, 8, 128);
+    color: #563b97;
     direction: rtl;
 
 }
@@ -250,7 +250,7 @@ h2{
         height: 650px;
         background-color: rgb(241, 242, 242);
         font-family: "Tajawal", sans-serif;
-        color: rgb(70, 8, 128);
+        color: #563b97;
         font-weight: 900;
         font-size: larger;
     }
@@ -299,6 +299,7 @@ h2{
 
 
     .p1{
+        color: black;
         display: flex;
         flex-direction: row;
         justify-content: right;
@@ -312,6 +313,7 @@ h2{
 
 
     .p2{
+        color: black;
         display: flex;
         flex-direction: row;
         justify-content: right;
@@ -325,6 +327,7 @@ h2{
 
 
     .p3{
+        color: black;
         display: flex;
         flex-direction: row;
         justify-content: right;
@@ -338,6 +341,7 @@ h2{
 
 
        .p4{
+        color: black;
         display: flex;
         flex-direction: row;
         justify-content: right;
@@ -352,6 +356,7 @@ h2{
 
 
        .p5{
+        color: black;
         display: flex;
         flex-direction: row;
         justify-content: right;
@@ -364,6 +369,7 @@ h2{
        }
 
        .p6{
+        color: black;
         display: flex;
         flex-direction: row;
         justify-content: right;
