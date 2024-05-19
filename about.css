@@ -82,7 +82,7 @@ ul li {
   margin-top: 0px;
   text-align: right;
   padding-top: 5px;
-  margin-right: 140px;
+  margin-right: 120px;
   font-size: 80px;
   color: #563b97;
 }
@@ -93,7 +93,7 @@ ul li {
   width: 80%;
   white-space: wrap;
   font-weight: 500;
-  margin-left: 100px;
+  margin-right: 90px;
 }
 
 /*-----------------------------------------------------------------------------------------------*/
@@ -105,256 +105,261 @@ ul li {
 }
 
 .card1 {
-  padding: 90px;
-  padding-left: 120px;
-  width: 13%;
-  margin: 20px;
-  background-color: rgb(253, 253, 253);
-  height: 200px;
-  float: right;
-}
+    padding: 90px;
+    padding-left: 120px;
+    width: 13%;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    float: right;
+  }
+  
 
-.card1 img {
-  position: relative;
-  left: 30px;
-}
+  .card1 img {
+    position: relative;
+    right: 60px;
+  }
+  
+  .card1 h2 {
+    position: relative;
+    left: 70px;
+    bottom: 0px;
+    text-align: center;
+    font-family: "Tajawal", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #563b97;
+    direction: rtl;
+  }
+  
+  .card1 p {
+    position: relative;
+    right: 50px;
+    bottom: 0px;
+    font-size: large;
+    text-align: right;
+  }
 
-.card1 h2 {
-  position: relative;
-  right: 130px;
-  bottom: 15px;
-  text-align: right;
-  font-family: "Tajawal", sans-serif;
-  font-weight: 700;
-  font-size: 40px;
-  color: #563b97;
-  direction: rtl;
-}
 
-.card1 p {
-  position: relative;
-  right: 80px;
-  bottom: 39px;
-  font-size: large;
-  text-align: right;
-}
 
-/*-----------------------------------------------------------------------------------------------*/
-
+  
 .card2 {
-  padding: 90px;
-  padding-left: 120px;
-  width: 13%;
-  margin: 20px;
-  background-color: rgb(252, 252, 252);
-  height: 200px;
-  float: right;
-}
+    padding: 90px;
+    padding-left: 120px;
+    width: 12%;
+    margin: 20px;
+    background-color: rgb(252, 252, 252);
+    height: 200px;
+    float: right;
+  }
+  
 
-.card2 img {
-  position: relative;
-  left: 25px;
-}
+  .card2 img {
+    position: relative;
+    right: 60px;
+  }
+  
+  .card2 h2 {
+    position: relative;
+    left: 70px;
+    bottom: 0px;
+    text-align: center;
+    font-family: "Tajawal", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #563b97;
+    direction: rtl;
+  }
+  
+  .card2 p {
+    position: relative;
+    right: 0px;
+    bottom: 0px;
+    font-size: small;
+    font-weight: 500;
+    text-align: center;
+  }
 
-.card2 h2 {
-  position: relative;
-  right: 120px;
-  bottom: 20px;
-  text-align: right;
-  font-family: "Tajawal", sans-serif;
-  font-weight: 700;
-  font-size: 40px;
-  color: #563b97;
-  direction: rtl;
-}
 
-.card2 p {
-  position: relative;
-  right: 45px;
-  bottom: 45px;
-  font-size: large;
-  text-align: right;
-}
 
-/*-----------------------------------------------------------------------------------------------*/
+  .card3 {
+    padding: 90px;
+    padding-left: 120px;
+    width: 13%;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    float: right;
+  }
+  
 
-.card3 {
-  padding: 90px;
-  padding-left: 120px;
-  width: 13%;
-  margin: 20px;
-  background-color: rgb(255, 254, 254);
-  height: 200px;
-  float: right;
-}
-
-.card3 img {
-  position: relative;
-  left: 35px;
-}
-
-.card3 h2 {
-  position: relative;
-  right: 130px;
-  bottom: 15px;
-  text-align: right;
-  font-family: "Tajawal", sans-serif;
-  font-weight: 700;
-  font-size: 40px;
-  color: #563b97;
-  direction: rtl;
-}
-
-.card3 p {
-  position: relative;
-  right: 55px;
-  bottom: 35px;
-  font-size: large;
-  text-align: right;
-}
-
+  .card3 img {
+    position: relative;
+    right: 60px;
+  }
+  
+  .card3 h2 {
+    position: relative;
+    left: 70px;
+    bottom: 0px;
+    text-align: center;
+    font-family: "Tajawal", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #563b97;
+    direction: rtl;
+  }
+  
+  .card3 p {
+    position: relative;
+    right: 0px;
+    bottom: 0px;
+    font-size: large;
+    text-align: center;
+  }
 /*-----------------------------------------------------------------------------------------------*/
 
 .main {
-  height: 650px;
-  background-color: rgb(241, 242, 242);
-  font-family: "Tajawal", sans-serif;
-  color: #563b97;
-  font-weight: 900;
-  font-size: larger;
-}
+    height: 650px;
+    background-color: rgb(229, 229, 229);
+    font-family: "Tajawal", sans-serif;
+    
+    
+  }
 
-.main h2 {
-  padding-top: 40px;
-  text-align: center;
-}
+  
+  .main h2 {
+    font-weight: 900;
+    font-size: larger;
+    color: #563b97;
+    padding-top: 40px;
+    text-align: center;
+  }
 
-.card11,
+
+  .card11,
 .card111 {
   display: flex;
   flex-direction: row;
   justify-content: right;
   position: relative;
-  right: 190px;
-  padding-top: 30px;
-  padding-bottom: 140px;
+  right: 0px;
+  padding-right: 190px;
+  padding-top: 80px;
+  padding-bottom: 140px; 
 }
+
+
 
 .card22,
 .card222 {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: right;
   position: relative;
-  right: 25px;
-  bottom: 560px;
-  padding-top: 30px;
-  padding-bottom: 140px;
+  right: 0px;
+  bottom: 575px;
+  padding-right: 590px;
+  padding-top: 100px;
+  padding-bottom: 120px; 
 }
+
+
 
 .card33,
 .card333 {
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  justify-content: right;
   position: relative;
   right: 0px;
-  bottom: 1130px;
-  padding-top: 30px;
-  padding-bottom: 140px;
-  padding-left: 180px;
+  bottom: 1155px;
+  padding-right: 990px;
+  padding-top: 100px;
+  padding-bottom: 120px; 
 }
+
+
 
 .p1 {
-  color: black;
-  display: flex;
-  flex-direction: row;
-  justify-content: right;
-  font-family: "Tajawal", sans-serif;
-  position: relative;
-  right: 160px;
-  bottom: 100px;
-  font-weight: 700;
-  font-size: medium;
-}
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    font-family: "Tajawal", sans-serif;
+    position: relative;
+   top: 120px;
+   left: 80px;
+    font-size: large;
+  }
 
-.p2 {
-  color: black;
-  display: flex;
-  flex-direction: row;
-  justify-content: right;
-  font-family: "Tajawal", sans-serif;
-  position: relative;
-  right: 160px;
-  bottom: 100px;
-  font-weight: 700;
-  font-size: medium;
-}
+  .p2 {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    font-family: "Tajawal", sans-serif;
+    position: relative;
+   top: 116px;
+   left: 100px;
+    font-size: large;
+  }
 
-.p3 {
-  color: black;
-  display: flex;
-  flex-direction: row;
-  justify-content: right;
-  font-family: "Tajawal", sans-serif;
-  position: relative;
-  right: 580px;
-  bottom: 670px;
-  font-weight: 700;
-  font-size: medium;
-}
 
-.p4 {
-  color: black;
-  display: flex;
-  flex-direction: row;
-  justify-content: right;
-  font-family: "Tajawal", sans-serif;
-  position: relative;
-  right: 600px;
-  bottom: 670px;
-  font-weight: 700;
-  font-size: medium;
-}
+  .p3 {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    font-family: "Tajawal", sans-serif;
+    position: relative;
+    top: 108px;
+    left: 100px;
+    font-size: large;
+  }
 
-.p5 {
-  color: black;
-  display: flex;
-  flex-direction: row;
-  justify-content: right;
-  font-family: "Tajawal", sans-serif;
-  position: relative;
-  right: 1000px;
-  bottom: 1260px;
-  font-weight: 700;
-  font-size: medium;
-}
+  .p4{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    font-family: "Tajawal", sans-serif;
+    position: relative;
+    top: 110px;
+    left: 80px;
+    font-size: large;
+  }
 
-.p6 {
-  color: black;
-  display: flex;
-  flex-direction: row;
-  justify-content: right;
-  font-family: "Tajawal", sans-serif;
-  position: relative;
-  right: 1000px;
-  bottom: 1250px;
-  font-weight: 700;
-  font-size: medium;
-}
+  .p5 {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    font-family: "Tajawal", sans-serif;
+    position: relative;
+   top: 130px;
+   left: 80px;
+    font-size: large;
+  }
+
+
+  .p6 {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    font-family: "Tajawal", sans-serif;
+    position: relative;
+   top: 110px;
+   left: 80px;
+    font-size: large;
+  }
+
+
+
 
 /*-----------------------------------------------------------------------------------------------*/
 
-.last {
-  font-family: "Tajawal", sans-serif;
-  background-color: rgb(70, 8, 128);
-  color: #fdfafa;
-  text-align: center;
-  padding-bottom: 10px;
-  margin: 0;
-  position: relative;
-  bottom: 0px;
-}
 
 /* Meznah Section ===> */
 @import url("https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sen:wght@400..800&family=Tajawal:wght@200;300;400;500;700;800;900&family=Ubuntu+Condensed&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
