@@ -50,6 +50,16 @@ Navigation is seamless across all pages. Each page includes a consistent navigat
  - **🎨 CSS3**: For styling and layout.
 
 
+## Video Demonstration
+
+![Watch the video](https://drive.google.com/uc?id=1K7muzIBbYFT72NiiCKiPL42bR3oZNlcf)
+
+
+ src="https://drive.google.com/file/d/1n0GrxKLf6k7i2WoiJ_fntW7MiYUIihu6/view?usp=drive_link" 
+
+
+
+
 ## How to Run
 
 To run the website locally, follow these steps:
@@ -63,6 +73,8 @@ To run the website locally, follow these steps:
 You can view the live demo of the website [Here](https://sara3saeed.github.io/Tuwaiq-Academy-Project/)
 
 
+Learn more about Tuwaiq Academy on their website:
+[here](https://tuwaiq.edu.sa/).
 
 ## Team Members
 
