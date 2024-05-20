@@ -1,5 +1,5 @@
 # 🏫 Tuwaiq Academy Website
-
+![Watch the video](https://drive.google.com/uc?id=1K7muzIBbYFT72NiiCKiPL42bR3oZNlcf)
 ## Overview
 
 This project is a web-based representation of Tuwaiq Academy. The website consists of three main pages:
@@ -52,10 +52,10 @@ Navigation is seamless across all pages. Each page includes a consistent navigat
 
 ## Video Demonstration
 
-![Watch the video](https://drive.google.com/uc?id=1K7muzIBbYFT72NiiCKiPL42bR3oZNlcf)
 
 
- src="https://drive.google.com/file/d/1n0GrxKLf6k7i2WoiJ_fntW7MiYUIihu6/view?usp=drive_link" 
+
+https://github.com/SARA3SAEED/Tuwaiq-Academy-Project/assets/146086114/2b5dd51b-fbdd-4bd1-a1af-8873b1070c0c
 
 
 
